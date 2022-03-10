@@ -5,7 +5,7 @@ Feature: Create and update a user in Todo.ly
     When uso request POSTH al enlace /api/user.json con el json
     """
     {
-    "Email":"examenmanuel33@upb.com",
+    "Email":"examenmanuel34@upb.com",
     "FullName":"Manuel Valenzuela",
     "Password":"prueba123"
     }
@@ -15,7 +15,7 @@ Feature: Create and update a user in Todo.ly
     """
     {
     "Id": "IGNORE",
-    "Email": "examenmanuel33@upb.com",
+    "Email": "examenmanuel34@upb.com",
     "Password": null,
     "FullName": "Manuel Valenzuela",
     "TimeZone": 0,
@@ -29,7 +29,7 @@ Feature: Create and update a user in Todo.ly
     "TimeZoneId": "Pacific Standard Time"
     }
     """
-    When actualizo con el link /api/user.json con el usuario examenmanuel33@upb.com y password prueba123 con el json
+    When actualizo con el link /api/user.json con el usuario examenmanuel34@upb.com y password prueba123 con el json
     """
     {
       "FullName": "Manuel Valenzuela Update"
