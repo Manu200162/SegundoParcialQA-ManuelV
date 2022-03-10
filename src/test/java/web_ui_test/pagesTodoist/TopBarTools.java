@@ -1,4 +1,4 @@
-package web_ui_test.pages;
+package web_ui_test.pagesTodoist;
 
 import web_ui_test.control.Button;
 import web_ui_test.control.Image;

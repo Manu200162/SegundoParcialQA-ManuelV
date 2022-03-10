@@ -2,9 +2,9 @@ package web_ui_test.testClean;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import web_ui_test.pages.LoginPage;
-import web_ui_test.pages.MainPage;
-import web_ui_test.pages.TopBarTools;
+import web_ui_test.pagesTodoist.LoginPage;
+import web_ui_test.pagesTodoist.MainPage;
+import web_ui_test.pagesTodoist.TopBarTools;
 
 public class LoginTest extends BaseTodoist{
 

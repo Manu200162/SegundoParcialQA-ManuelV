@@ -1,9 +1,9 @@
 package web_ui_test.pages;
 
-import web_ui_test.control.Button;
+import io.cucumber.java.bs.I;
 import org.openqa.selenium.By;
+import web_ui_test.control.Image;
 
 public class MainPage {
-
-    public Button loginButton= new Button(By.xpath("//ul[@class=\"_3XsmI\"]//li//a[text()=\"Log in\"]"));
+    public Image loginImage= new Image(By.xpath("//img[@src='/Images/design/pagelogin.png']"));
 }

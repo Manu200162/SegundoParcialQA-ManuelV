@@ -2,7 +2,7 @@ package web_ui_test.testClean;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import web_ui_test.pages.*;
+import web_ui_test.pagesTodoist.*;
 
 import java.util.Date;
 
